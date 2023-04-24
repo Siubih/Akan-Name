@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How to find my Akan Name</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<h1>My Akan Name</h1>
+	<p>This is a website to help you find your Akan Name</p>
+	<p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+	<p>To try it out:</p>
+	<form>
+		<label for="dob">Please enter your date of birth:</label>
+		<input type="date" id="dob" name="dob">
+		<br><br>
+		<label for="gender">Please select your gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+		<br><br>
+		<button type="button" onclick="generateAkanName()">Generate my Akan Name</button>
+	</form>
+	<br><br>
+	<div id="result"></div>
+	<script src="script.js"></script>
+</body>
+</html>
